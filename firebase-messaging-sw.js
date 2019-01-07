@@ -18,8 +18,8 @@ messaging.setBackgroundMessageHandler(function(payload) {
   const notificationTitle = payload.data.title;
   const notificationOptions = {
     body: payload.data.body,
-          icon: 'http://localhost/strony/inzynierka/style/img/torb.jpg',
-		  image: 'http://localhost/strony/inzynierka/style/img/euro.jpg',
+          icon: 'http://localhost/strony/inzynierka/style/img/powiadomienie.png',
+		  image: 'http://localhost/strony/inzynierka/style/img/giphy.gif',
 		  data:{
 			time: new Date(Date.now()).toString(),
 		  click_action: payload.data.click_action,

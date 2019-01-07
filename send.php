@@ -21,12 +21,12 @@ $header= [
 ];
 
 $msg=[
-    'title'=> 'Thorbjorn nawiedza Europę',
-    'body' => 'Uciekajcie gdzie pieprz rośnie',
-    'icon'=> 'style/img/torb.jpg',
-    'image' => 'style/img/euro.jpg',
+    'title'=> 'Nowa wiadomość ze świata',
+    'body' => 'Kraj znowu wolny!!!',
+    'icon'=> 'style/img/powiadomienie.png',
+    'image' => 'style/img/giphy.gif',
     'click_action' => 'http://localhost/strony/Inzynierka/index.php',
-    'tag' => 'Ratunku',
+    'tag' => 'Wolność',
 
 ];
 
