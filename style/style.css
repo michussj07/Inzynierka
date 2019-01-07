@@ -1,0 +1,145 @@
+body
+{
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image:url("img/wheat/wheat.png");
+	color: white;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	margin: 0 !important;
+	padding: 0;
+	height: 100%;
+}
+
+.logo
+{
+	font-family: 'Charmonman', cursive;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 48px;
+	text-align: center;
+}
+
+#dataLayer
+{
+	text-align: right;
+	visibility: visible;
+	font-weight:bold;
+
+}
+
+
+.nav
+{
+	width: 100%;
+	padding: 10px 0;
+	background-color: #c34f4f;
+	text-align: center;
+	border-top: 1px solid #751b1b;
+	border-bottom: 1px solid #751b1b;
+	cursor: pointer;
+}
+
+
+
+
+.content
+{
+	width:1000px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 200px;
+	padding-right: 200px;
+	min-height:100%;
+	position:relative;
+	background-image:url("img/dark-grey-terrazzo.png");
+}
+
+h1
+{
+	text-align: center;
+}
+
+.footer
+{
+	text-align: center;
+	background-color:#222222;
+	padding: 30px;	
+	margin-top: 30px;
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top:0;
+	z-index: 100;
+}
+
+.gora a
+{
+	border-top: 1px solid #751b1b;
+	border-bottom: 1px solid #751b1b;
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	background-color: #c34f4f;
+}
+
+.gora a:hover
+{
+	color: #451717;
+	background-color: #cf6969;
+
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 18px;
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+}
+
+ol a
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float:left;
+	width: 150px;
+	height: 40px;
+	border-right: 1px dashed #751b1b;
+	
+}
+
+ol > li:first-child
+{
+	border-left: 1px dashed #751b1b;
+}
+
+ol > li:hover
+{
+	background-color: #cf6969;
+}
+
+ol > li:hover > a
+{
+	color: #451717;
+	
+}
